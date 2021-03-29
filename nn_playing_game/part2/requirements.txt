@@ -48,7 +48,7 @@ pycrypto==2.6.1
 pycups==1.9.73
 pycurl==7.43.0
 pygame==1.9.4
-Pygments==2.2.0
+Pygments==2.7.4
 pygobject==3.22.0
 pyparsing==2.3.0
 pysmbc==1.0.15.6
