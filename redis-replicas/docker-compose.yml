@@ -1,0 +1,20 @@
+version: "3.3"
+services:
+  master:
+    build: ./master
+    ports:
+      - 6379:6379
+
+  replica0:
+    build: ./replica
+    ports:
+      - 6380:6379
+    depends_on:
+      - master
+
+  replica1:
+    build: ./replica
+    ports:
+      - 6381:6379
+    depends_on:
+      - master
