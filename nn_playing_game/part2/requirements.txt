@@ -35,7 +35,7 @@ mistune==0.7.3
 nbconvert==4.2.0
 nbformat==4.2.0
 notebook==4.2.3
-numpy==1.15.4
+numpy==1.22.0
 opencv-contrib-python==3.4.3.18
 pexpect==4.2.1
 pickleshare==0.7.4
